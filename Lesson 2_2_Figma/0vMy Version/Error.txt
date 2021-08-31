@@ -1,0 +1,81 @@
+HTML
+    <main>
+        <section style="overflow: hidden;">
+            <div class="main_section_all">
+                <h1 class="main_section_title"> The Design Thinking superpowers</h1>
+
+                <p class="main_section_information">
+                    Tools, tutorials, design and innovation experts, all in one place!
+                    The most intuitive way to imagine your next user experience.
+                </p>
+
+
+                <div class="main_section_btn ">
+                    <!--<span class="main_section_btn">-->
+                    <button class="main_section_btn_s" type="submit">Get started</button>
+                    <button class="main_section_btn_v" type="submit">Watch the Video</button>
+                </div>
+
+            </div>
+            <!--Картинка-->
+		<svg class="main_section_title_img"...
+		</svg>
+
+        </section>
+</main>
+
+СSS
+/*Первый блок с первой информацией о сайте(Имя о чем и картинка)*/
+
+.main_section_all {
+  margin: auto;
+  overflow: hidden;
+}
+
+.main_section_title {
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+  float: left;
+}
+
+.main_section_information {
+  width: 450px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+
+  float: left;
+  padding-bottom: 15px;
+}
+
+.main_section_btn {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.main_section_btn_s {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 4px;
+  float: left;
+  margin: 5px;
+}
+
+.main_section_btn_v {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ff9900;
+  float: left;
+  margin: 5px;
+}
+
+.main_section_title_img {
+  float: right;
+}

@@ -1,0 +1,130 @@
+body {
+  /*overflow-x: hidden; /*тобы скрыть только горизонтальную полосу прокрутки */
+  height: 2000px;
+  background: #f2f2f2;
+  font-family: Poppins;
+  font-style: normal;
+}
+
+/*Верхняя панель*/
+header {
+  display: block;
+  width: 100%;
+  padding: 10px 100px 0 100px;
+  margin: 0;
+  box-sizing: border-box; /*Применяется для изменения алгоритма расчета ширины и высоты элемента. 
+  убрали скрол гор-й*/
+}
+
+main section,
+footer {
+  padding: 100px; /* внутренний отступ*/
+}
+
+.header_logo {
+  font-size: 35px;
+  text-decoration: none; /*тег  который задает линию подчеркивания - none убирает*/
+  color: #173a56;
+}
+
+.header_nav {
+  width: 500px;
+  /*display: flex;
+  flex-direction: row;*/
+  /*display: inline-block;*/
+  float: right; /*переместили в права*/
+}
+
+.header_nav_a {
+  margin: 0 10px;
+  text-decoration: none;
+  size: 14px;
+  line-height: 28px;
+  color: #2f281e;
+  opacity: 0.1;
+}
+
+.header_btn {
+  display: inline-block;
+}
+
+.header_btn_in {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header_btn_up {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 4px;
+}
+
+/*Первый блок с первой информацией о сайте(Имя о чем и картинка)*/
+
+.main_section_all {
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  float: left;
+}
+
+.main_section_title {
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+  float: left;
+}
+
+.main_section_information {
+  width: 450px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  width: 520px;
+  /*width: 70%;*/
+  float: left;
+  padding-bottom: 15px;
+}
+
+.main_section_btn {
+  /*display: inline-block;*/
+  float: left;
+  /*width: 100%;*/
+  width: 520px;
+}
+
+.main_section_btn_s {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.main_section_btn_v {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ff9900;
+  margin: 5px;
+}
+
+.main_section_title_img {
+  position: fixed;
+  /*width: 520px;*/
+  float: right;
+  padding-left: 50%;
+  position: fixed;
+}
