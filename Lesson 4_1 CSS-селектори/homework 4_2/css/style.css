@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #6a6a6a;
+  font-family: Trebuchet;
+}
+* {
+  transition: all 0.1s ease-in;
+}
+
+header,
+section,
+footer {
+  width: 50%;
+  margin: auto;
+}
+
+header {
+  background: #4a4f56;
+  text-align: center;
+  color: #eb7e7f;
+}
+
+section {
+  background: #3b3f45;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+.text {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+#table tbody tr:nth-child(odd) {
+  background: #88839e;
+}
+
+#table tbody tr:nth-child(even) {
+  background: #7a7593;
+}
+
+section p {
+  color: #eb7e7f;
+  font-size: 25px;
+  text-align: center;
+  background: #4a4f56;
+  margin-top: 10px;
+}
