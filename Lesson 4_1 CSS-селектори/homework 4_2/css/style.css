@@ -1,59 +1,58 @@
+html,
 body {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  background: #6a6a6a;
-  font-family: Trebuchet;
-}
-* {
-  transition: all 0.1s ease-in;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header,
-section,
-footer {
-  width: 50%;
-  margin: auto;
+body {
+  font: 400 26px/1.3 "Tebuchet MC", Tebuchet, Arial, sans-serif;
+  border: 15px solid #fff;
+  color: #f9f9f9;
 }
 
-header {
-  background: #4a4f56;
+.header,
+.footer {
   text-align: center;
+  background: #4a4f56;
+  padding: 20px 0;
   color: #eb7e7f;
 }
-
-section {
-  background: #3b3f45;
+h1,
+p {
+  color: #eb7e7f;
 }
-
-table {
-  border-collapse: collapse;
+h1 {
+  font-size: 30px;
+}
+p {
   font-size: 20px;
-  font-weight: bold;
-  margin: auto;
-}
-.text {
-  font-size: 15px;
-  font-weight: normal;
 }
 
-th,
-td {
-  padding: 5px;
+.main-container {
+  padding: 5% 30%;
+  background-color: #3b3f45;
 }
-
-#table tbody tr:nth-child(odd) {
+.shop-list {
+  list-style: none;
+  font-size: 20px;
+}
+.shop-list li {
+  background: #7a7593;
+  border: 0 solid #fff;
+}
+.shop-list li:nth-child(odd) {
   background: #88839e;
 }
-
-#table tbody tr:nth-child(even) {
-  background: #7a7593;
+.shop-list li:hover {
+  background: #625e77;
 }
 
-section p {
-  color: #eb7e7f;
-  font-size: 25px;
-  text-align: center;
-  background: #4a4f56;
-  margin-top: 10px;
+.shop-list label {
+  display: block;
+  cursor: pointer;
+  padding: 10px;
 }
