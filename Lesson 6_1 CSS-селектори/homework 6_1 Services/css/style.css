@@ -1,0 +1,43 @@
+body,
+ {
+  width: 100%;
+
+  margin: auto;
+  /*background-color: brown;*/
+}
+
+header {
+  /*display: block;*/
+  width: 100%;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  width: 1550px;
+  height: 289px;
+  z-index: 2;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+h3 {
+  font-size: 14px;
+  font-family: "ProximaNova";
+  color: rgb(0, 0, 0);
+}
+
+span {
+  font-size: 14px;
+  font-family: "ProximaNova";
+  color: rgb(157, 157, 157);
+  line-height: 1.429;
+  text-align: center;
+
+ 
+
+}
+
+}
