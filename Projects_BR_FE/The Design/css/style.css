@@ -1,0 +1,96 @@
+header,
+main,
+footer {
+  width: 100%;
+  margin: auto;
+}
+header {
+  display: block;
+  width: 100%;
+  padding: 0 100px;
+  box-sizing: border-box; /*Применяется для изменения алгоритма расчета ширины и высоты элемента. 
+  убрали скрол гор-й*/
+}
+
+.header-logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: #173a56;
+  text-decoration: none; /*тег  который задает линию подчеркивания - none убирает*/
+}
+
+.header-nav {
+  display: inline-block;
+  float: right;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 28px;
+  color: #2f281e;
+  opacity: 0.5;
+}
+
+.header_btn {
+  display: inline-block;
+  font-size: 25px;
+}
+
+/*First  main block*/
+
+main .block1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+main .block1 svg {
+  width: 50%;
+}
+
+main section .block1-left {
+  font-family: "Poppins";
+  width: 50%;
+}
+
+main section div .title {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+  margin: 60px 100px 40px;
+}
+
+.inf-n {
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  margin: 60px 100px 40px;
+}
+
+main section div .btn {
+  margin: 0 100px;
+}
+
+main section div .btn .btn_s_video {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ff9900;
+}
+
+/*Second block*/
