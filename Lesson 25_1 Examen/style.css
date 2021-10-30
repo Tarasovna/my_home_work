@@ -8,10 +8,8 @@
   background-size: cover;
 }
 
-.header_top {
-  flex: 1 1 auto;
-}
 .header_info {
+  flex: 1 1 auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -19,6 +17,9 @@
   display: block;
   text-align: center;
   margin: 0;
+}
+.header_top {
+  flex: 1 1 auto;
 }
 
 .text_logo {
